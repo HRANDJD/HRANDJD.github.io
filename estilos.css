@@ -1,0 +1,180 @@
+p{
+  font-size:18;
+  font-family:Agency FB;
+  text-align:justify;
+}
+a{
+	color:#F94354;
+	font-family:cursive;
+	font-weight:bolder;
+}
+.img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.class1{
+	width:640px;
+	height:480px;
+}
+.class2{
+	width:640px;
+	height:480px;
+}
+
+	*{
+  box-sizing: border-box;
+}
+
+video{
+width:640px;
+height:480px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+
+#cabecera{
+	background-color:#DB3B9A;
+	padding:30px;
+	text-align:center;
+      
+}
+#imglogo{
+	width:50px;
+	width:60px;
+	height:auto;
+	float:left;
+}
+.cuerpo{
+	background-color:#8D43F9;
+	padding:30px;
+	text-align:justify;
+	height:100%;
+margin-top:7px;
+float:left;
+width:60%;
+}
+.derecho{
+	float:right;
+	width:20%;
+	background-color:#3F3CF0;
+	padding:30px;
+	text-align:justify;
+	height:100;
+	margin-top:7px;
+	
+}
+.izquierdo{
+	float:left;
+	width:20%;
+	background-color:#3F3CF0;
+	padding:30px;
+	text-align:justify;
+	height:100;
+	margin-top:7px;
+}
+
+
+
+.class3{
+	width:640px;
+	height:480px;
+}
+.class4{
+	width:230px;
+	height:150px;
+}
+.class6{
+	width:230px;
+	height:150px;
+}
+.pie{
+	background-color:#EA4EF2;
+	text-align:center;
+	padding:10px;
+}
+body{
+	background-color:#A83BDB;
+}
+h1,h2,h3,h4{
+	font-family:ALGERIAN;
+	text-decoration:underline paletblue;
+}
+#alinear{
+	display: flex;
+	
+	margin: 7px;
+}
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+	background-image: url("imagen5.jpeg");
+}
+
+#itemCarrousel-2{
+    background-image: url("R4.jpeg");
+}
+
+#itemCarrousel-3{
+    background-image: url("r5.png");
+}
+
+.conteCarrouselController{
+    width: 500%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+iframe{
+
+max-width:95%;
+
+}
